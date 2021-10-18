@@ -16,10 +16,10 @@ export default function Home() {
       <main>
         <header>
           <h1>I want to get better at ______.</h1>
-          <div class="concepts">
+          <div className="concepts">
             <h2>Concepts</h2>
           </div>
-          <div class="frameworks">
+          <div className="frameworks">
             <h2>Frameworks</h2>
           </div>
           <button>Search</button>
