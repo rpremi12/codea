@@ -16,14 +16,30 @@ export default function Home() {
       <main>
         <header>
           <h1>I want to get better at ______.</h1>
+<<<<<<< HEAD
           <div className="concepts">
+=======
+        </header>
+        <section className="bodycontent">  
+        <div className="concepts">
+>>>>>>> b580f313228eeec98630eb1ccfee49122a995925
             <h2>Concepts</h2>
+            <button className="buttons">Front End</button>
+            <button>Back End</button>
+            <button>Machine Learning</button>
+            <button>Cloud Computing</button>
           </div>
           <div className="frameworks">
             <h2>Frameworks</h2>
+            <button>Python</button>
+            <button>Django</button>
+            <button>SQL</button>
+            <button>React</button>
           </div>
-          <button>Search</button>
-        </header>
+
+          <button className="search w-100">Search</button>
+          <hr/>
+      </section>
       </main>
     </div>
   )
