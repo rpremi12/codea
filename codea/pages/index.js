@@ -16,13 +16,9 @@ export default function Home() {
       <main>
         <header>
           <h1>I want to get better at ______.</h1>
-<<<<<<< HEAD
-          <div className="concepts">
-=======
         </header>
         <section className="bodycontent">  
         <div className="concepts">
->>>>>>> b580f313228eeec98630eb1ccfee49122a995925
             <h2>Concepts</h2>
             <button className="buttons">Front End</button>
             <button>Back End</button>
@@ -38,7 +34,7 @@ export default function Home() {
           </div>
 
           <button className="search w-100">Search</button>
-          <hr/>
+          <hr className="w-100"/>
       </section>
       </main>
     </div>
